@@ -1,0 +1,66 @@
+
+
+# ye waalaa mail bhejne ke kaam aayegaa, isme attachment bhi bhej sakte hai
+
+https://developers.google.com/apps-script/reference/mail/mail-app
+
+udaaharan : // Send an email with two attachments: a file from Google Drive (as a PDF) and an HTML file.
+var file = DriveApp.getFileById('1234567890abcdefghijklmnopqrstuvwxyz');
+var blob = Utilities.newBlob('Insert any HTML content here', 'text/html', 'my_document.html');
+MailApp.sendEmail('mike@example.com', 'Attachment example', 'Two files are attached.', {
+    name: 'Automatic Emailer Script',
+    attachments: [file.getAs(MimeType.PDF), blob]
+});
+
+
+mail bhejne hetu 
+
+ye waalaa
+
+https://developers.google.com/apps-script/reference/mail/mail-app
+
+https://developers.google.com/apps-script/articles/sending_emails
+
+attach file hatu
+
+https://developers.google.com/gmail/api/v1/reference/users/messages/attachments/get
+
+https://developers.google.com/gmail/api/v1/reference/users/messages/list
+
+
+
+
+PropertService
+
+https://developers.google.com/apps-script/reference/properties/properties-service
+
+https://stackoverflow.com/questions/51271207/how-to-access-google-photos-api-with-javascript-using-google-api-javascript-clie
+
+#MailApp kaam aa saktaa hai mail karne hetu
+
+MailApp.sendEmail(emailAddress,
+ subject, message);
+github.com/gsuitedevs/apps-script-samples/blob/master/gmail/sendingEmails/sendingEmails.gs
+
+
+
+
+
+#enable advance 'Gmail' api:
+
+https://developers.google.com/apps-script/guides/services/advanced#enabling_advanced_services
+
+
+
+
+
+# Advance mail service upyog
+
+https://github.com/gsuitedevs/apps-script-samples/blob/master/advanced/gmail.gs
+
+
+
+#Visual Studio se apnaa function banaa sakte hai
+
+
+https://googleapis.dev/nodejs/googleapis/latest/gmail/index.html

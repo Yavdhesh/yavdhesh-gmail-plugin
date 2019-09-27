@@ -1,0 +1,44 @@
+1)
+https://github.com/labnol/apps-script-starter
+
+
+# clone repo
+1) git clone https://github.com/labnol/apps-script-starter.git
+
+2) npm install --save
+
+3) npx clasp login  (sabse mahatwapoorna)
+
+4) npx clasp create --type sheets --title "MailMan" --rootDir ./dist
+
+sheet : https://drive.google.com/open?id=17VLoMlI5M5n1Heq5EarnIDfRg1UfoWWpn_5jUMd6kcs
+
+edit :  https://script.google.com/d/1EkwI-NyEnzleq5yWl2epc-PTphe5whMHJaiYDlTR3_jzqwwmTX0dtZAu/edit
+
+
+
+
+ye dist folder banaayegi, drive par sheets me MailMan sheet banayegi
+
+5) oauth playground se dekho drive aur gmail ke liye oauth chaahiye jo
+
+6) project build karne ke liye : npm run build chalaaiye
+
+jaise hi aap npm run build chalaate hai, dist directory me bundle code aa jaataa hai, ye hi bundle code chaahiye
+
+7) code ko gsuite editor me daalne ke liye : 'npx clasp push' chalaaye, npx clasp login honaa chaahiye (project ko root me npx clasp push chalaao)
+
+manifest updated aaye --> y karke aage badho
+
+
+8) ab is link par jaaiye :  https://script.google.com/d/1EkwI-NyEnzleq5yWl2epc-PTphe5whMHJaiYDlTR3_jzqwwmTX0dtZAu/edit
+
+9) mailman2 is link refresh kijiye, aapkaa code dikh jaayega
+
+10) package.json me npm run deploy karke bhi code deploy kar sakte hai, aasaani se npm run build aur npx clasp push dono ek saath ho jaayenge
+
+
+
+11) advance api https://developers.google.com/apps-script/advanced/gmail 
+
+12) gmail-addon-yavdhesh ye waale pe kaam karn rha hu yog
